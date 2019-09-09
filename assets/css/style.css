@@ -45,23 +45,25 @@ body {
     font-weight: bold; 
     letter-spacing: -1px; 
     line-height: 1; 
-    margin-left: 15%;
+    margin-left: 12%;
 }
 
 .nav-item {
     color: white !important;
 }
 
+.main-content {
+   padding-left: 13%;
+}
+
 .about-me {
-    margin-left: 25px;
     color:white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 10px;
 }
 
 .profile-text {
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-right: 15%;
     color: white;
     font-size: large;
 }
@@ -80,7 +82,7 @@ h3 {
 
 .skills-logo {
     margin-bottom: 50px;
-    margin-left: 25px;
+    text-align: center;
 }
 
 .game-content {
@@ -156,7 +158,7 @@ input[type=submit]{
 }
 
 .contact-content {
-    text-align: center;
+    padding-left: 12%;
     color: white;
     background-color: #41A4F5;
     padding-bottom: 40px;
@@ -187,8 +189,7 @@ input[type=submit]{
 #downloadResume:hover {
     background-color: white;
     color: red;
-  }
-
+}
 
 @media only screen and (min-width: 320px) {
     .container {
@@ -211,10 +212,6 @@ input[type=submit]{
         margin-top: 0;
         justify-content: center;
         display: flex;
-    }
-
-    .skills-logo {
-        text-align: center;
     }
 }
 
