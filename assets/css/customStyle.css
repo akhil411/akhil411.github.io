@@ -50,7 +50,8 @@
     text-align: center;
     font-weight: bold;
     border-radius: 30px;
-    margin-right: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .card-parameters {
@@ -172,15 +173,15 @@
 }
 
 .modal-text {
-    width: 220px;
+    width: 350px;
     background-color: #A4A5A6;
     height: 50px;
     text-align: center;
     padding-top: 10px;
     font-size: 20px;
-    color: black;
+    color: white;
     margin-top: 75px;
-    border-radius: 15px;
+    border-radius: 4px;
     cursor: pointer;
     font-weight: bold;
     text-transform: uppercase;
@@ -190,10 +191,16 @@
     background: none;
     -webkit-box-shadow:none;
     box-shadow: none;
+    max-width:100%;
+    width: 100%;
+    padding: 0;
 }
 
 .modal a.close-modal {
-    display: none;
+    top: 1px;
+    right: 50px;
+    width: 50px;
+    height: 50px;
 }
 
 .slideInRight1 {
@@ -220,7 +227,7 @@
       }
     
       50% {
-        transform: translate3d(100%, 0, 0);
+        transform: translate3d(200%, 0, 0);
       }
   
       100% {
@@ -230,31 +237,31 @@
 
   @keyframes slideInRight2 {
     0% {
-        transform: translate3d(100%, 0, 0);
+        transform: translate3d(0%, 0, 0);
         visibility: visible;
       }
     
       50% {
-        transform: translate3d(0%, 0, 0);
+        transform: translate3d(200%, 0, 0);
       }
   
       100% {
-          transform: translate3d(60%, 0, 0);
+          transform: translate3d(80%, 0, 0);
         }
   }
 
   @keyframes slideInRight3 {
     0% {
-      transform: translate3d(0, 0, 0);
+      transform: translate3d(0%, 0, 0);
       visibility: visible;
     }
   
     50% {
-      transform: translate3d(100%, 0, 0);
+      transform: translate3d(200%, 0, 0);
     }
 
     100% {
-        transform: translate3d(40%, 0, 0);
+        transform: translate3d(120%, 0, 0);
       }
   }
 
@@ -292,102 +299,3 @@
     }
 }
 
-@media (min-width: 768px) {
-    .col-md-4 {
-        height: 460px;
-        max-width: 65.333333%;
-        justify-content: center;
-        display: inline-block;
-    }
-}
-
-@media (min-width: 1100px) {
-    .main-page #buttonExplore {
-        margin: 8% 0% -5% 0%;
-    }
-}
-
-@media (max-width: 920px) {
-    #profile-name {
-        font-size: 2rem;
-    }
-    #headingText {
-        font-size: 15px;
-        margin-bottom: 0;
-    }
-    #profileImage {
-        margin-bottom: 0;
-    }
-}
-
-@media (max-width: 800px) {
-    .main-page .circle {
-        background: #17A598;
-        }
-    #headingText {
-        color: #2C3F51;
-    }
-}
-
-@media (max-width: 610px) {
-    .card-parameters .card {
-        font-size: 14px;
-    }
-    .skills-text {
-        font-size: 0.75rem;
-    }
-    .skills-heading {
-        font-size: 1.5rem;
-    }
-    #profileName {
-        font-size: 1.5rem;  
-    }
-}
-
-@media (max-width: 500px) {
-    .card-img-top {
-        width: 165px;
-    }
-}
-
-@media (max-width: 500px) {
-    .contact-main {
-        width: 320px;
-    }
-    
-    .contact-topLeft {
-        width: 240px;
-        margin-right: 5px;
-        height: 50px;
-    }
-    
-    .contact-topRight {
-        width: 75px;
-        height: 50px;
-    }
-    
-    .contact-bottomLeft {
-        width: 75px;
-        margin-right: 5px;
-        height: 50px;
-    }
-    
-    .contact-bottomRight {
-        width: 240px;
-        height: 50px;
-    }
-    
-    .contact-main img {
-        margin-top: 15px;
-        margin-right: 10px;
-        width: 25px;
-    }
-    .contact-detail {
-        margin-top: 7px;
-        font-size: 12px;
-    }
-    #project-section, #contact-section{
-        font-size: 20px;
-    }
-
-}

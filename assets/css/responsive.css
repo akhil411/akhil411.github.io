@@ -1,0 +1,146 @@
+@media (min-width: 768px) {
+    .col-md-4 {
+        height: 460px;
+        max-width: 65.333333%;
+        justify-content: center;
+        display: inline-block;
+    }
+}
+
+@media (min-width: 1100px) {
+    .main-page #buttonExplore {
+        margin: 8% 0% -5% 0%;
+    }
+}
+
+@media (max-width: 920px) {
+    #profile-name {
+        font-size: 2rem;
+    }
+    #headingText {
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+    #profileImage {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .main-page .circle {
+        background: #17A598;
+        }
+    #headingText {
+        color: #2C3F51;
+    }
+}
+
+@media (max-width: 610px) {
+    .card-parameters .card {
+        font-size: 14px;
+    }
+    .skills-text {
+        font-size: 0.75rem;
+    }
+    .skills-heading {
+        font-size: 1.5rem;
+    }
+    #profileName {
+        font-size: 1.5rem;  
+    }
+}
+
+@media (max-width: 500px) {
+    .card-img-top {
+        width: 165px;
+    }
+    .modal {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media (max-width: 730px) {
+    .contact-main {
+        width: 480px;
+    }
+    
+    .contact-topLeft {
+        width: 370px;
+        margin-right: 10px;
+        height: 100px;
+    }
+    
+    .contact-topRight {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .contact-bottomLeft {
+        width: 100px;
+        margin-right: 10px;
+        height: 100px;
+    }
+    
+    .contact-bottomRight {
+        width: 370px;
+        height: 100px;
+    }
+    
+    .contact-main img {
+        margin-top: 30px;
+        margin-right: 10px;
+        width: 35px;
+    }
+    .contact-detail {
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    #project-section, #contact-section{
+        font-size: 20px;
+    }
+
+}
+
+
+@media (max-width: 500px) {
+    .contact-main {
+        width: 320px;
+    }
+    
+    .contact-topLeft {
+        width: 240px;
+        margin-right: 5px;
+        height: 50px;
+    }
+    
+    .contact-topRight {
+        width: 75px;
+        height: 50px;
+    }
+    
+    .contact-bottomLeft {
+        width: 75px;
+        margin-right: 5px;
+        height: 50px;
+    }
+    
+    .contact-bottomRight {
+        width: 240px;
+        height: 50px;
+    }
+    
+    .contact-main img {
+        margin-top: 15px;
+        margin-right: 10px;
+        width: 25px;
+    }
+    .contact-detail {
+        margin-top: 7px;
+        font-size: 12px;
+    }
+    #project-section, #contact-section{
+        font-size: 20px;
+    }
+
+}
