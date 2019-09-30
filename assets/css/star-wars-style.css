@@ -99,6 +99,7 @@ html {
 
 #buttonAttack {
     cursor: pointer;
+    border: none;
 }
 
 .enemy-profile .player-profile {
@@ -127,3 +128,12 @@ html {
 .loss-status, .final-status {
     color: gold;
 }
+
+.player-profile {
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+  .player-profile:hover {
+    transform: scale(1.1)
+  }
