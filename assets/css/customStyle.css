@@ -172,6 +172,10 @@
     font-weight: bold;
 }
 
+.list-group li{
+  height: 60px;
+}
+
 .modal-text {
     width: 350px;
     background-color: #A4A5A6;
