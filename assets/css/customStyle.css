@@ -197,7 +197,7 @@
     box-shadow: none;
     max-width:100%;
     width: 100%;
-    padding: 0;
+    padding-top: 115px;
 }
 
 .modal a.close-modal {
@@ -267,10 +267,6 @@
     100% {
         transform: translate3d(120%, 0, 0);
       }
-  }
-
-  .blocker {
-    background-color: rgba(0,0,0,0.95);
   }
 
   .carousel-item .btn {
