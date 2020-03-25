@@ -1,5 +1,5 @@
 # Akhil Vijayan Portfolio
-<h3>Profile</h3>
+<h3>Profile Summary</h3>
 
 <p> Full Stack Web Developer with a flair for creating elegant web development solutions. Possesses good problem solving skills, devises innovative solutions and fosters teamwork culture to meet the goals. Motivated by meeting set targets within deadlines as it gives a sense of accomplishment. Enjoy working in a team environment. Excited to learn more while working as a part of a fast paced and quality driven engineering team.</p>
 
@@ -8,7 +8,7 @@
 <li>Node.js
 <li>Express.js
 <li>JavaScript, jQuery
-<li>MySQL, MongoDB
+<li>MySQL, MongoDB, Firebase
 <li>Restful API
 <li>AWS S3 and Lambda
 <li>PHP - Wordpress, Laravel
